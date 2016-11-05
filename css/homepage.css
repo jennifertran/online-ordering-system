@@ -1,9 +1,99 @@
-.carousel{
-    margin-top: 20px;
+body {
+    padding-top: 50px;
 }
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
+
+.main-content {
+    z-index: 3;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 10px; bottom: 0; right: 0;
+    text-align: center;
 }
-.home-slides{
-	margin: 20px;
+
+.main-content h1 {
+    text-shadow: 4px 4px 6px #000000;
+    font-size: 80px;
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+.main-content h2 {
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+#delay3 {
+    opacity:0;
+    transition: opacity 0.8s;
+}
+
+.btn {
+    margin-right: 30px;
+}
+
+.carousel .item img {
+    overflow: hidden;
+    filter: blur(2px);
+}
+
+.carousel-inner {
+    max-height: 500px;
+    width: 100%;
+}
+
+.tutorial {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.tutorial p {
+    color: black;
+    font-size: 25px;
+}
+
+.business {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.business ul {
+    margin: auto;
+    position: relative;
+    top: 0; left: 11em; bottom: 0; right: 0;
+}
+
+li {
+    font-size: 20px;
+    color: black;
+}
+
+
+u {
+    color: black;
+}
+
+.credits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
 }
