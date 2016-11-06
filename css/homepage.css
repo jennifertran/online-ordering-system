@@ -1,5 +1,22 @@
-body {
-    padding-top: 50px;
+u {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.contact-icon {
+    color: #D30E00;
+    padding-right:25px;
 }
 
 .main-content {
@@ -33,10 +50,6 @@ body {
     transition: opacity 0.8s;
 }
 
-.btn {
-    margin-right: 30px;
-}
-
 .carousel .item img {
     overflow: hidden;
     filter: blur(2px);
@@ -49,15 +62,19 @@ body {
 
 .tutorial {
     padding-top: 60px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-h2 {
-    text-align: center;
-    font-size: 35px;
-    color: black;
+.tutorial img {
+    overflow: hidden;
+    height: 300px;
+    width: 80%;
+    border-color: #D30E00;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
 }
 
 .tutorial p {
@@ -67,9 +84,14 @@ h2 {
 
 .business {
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-family: 'Roboto', sans-serif;
     background-color: #F2F2F2;
+}
+
+.business li {
+    font-size: 22px;
+    color: black;
 }
 
 .business ul {
@@ -78,22 +100,31 @@ h2 {
     top: 0; left: 11em; bottom: 0; right: 0;
 }
 
-li {
-    font-size: 20px;
-    color: black;
-}
-
-
-u {
-    color: black;
-}
-
 .credits {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-p {
-    color: black;
-    font-size: 20px;
+.credits p {
+    font-size: 25px;
+}
+
+.btn {
+    margin-right: 30px;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to bottom,#D30E00 0,#CE0D00 100%) !important;
+    background-color: #D30E00 !important;
+    border-color: #CE0D00 !important ;
+    border-radius: 5px !important;
+}
+
+.btn-primary:hover {
+    border-color: #D30E00 !important;
+}
+
+/* Removes the odd outline when clicking the button */
+.btn:focus {
+  outline: none !important;
 }

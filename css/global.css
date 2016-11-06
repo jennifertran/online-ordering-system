@@ -1,0 +1,60 @@
+/* Applies to all the other pages to be consistent */
+body {
+    padding-top: 50px;
+}
+
+/* Navigation Settings */
+.navName{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+}
+
+.navName2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  color: black;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+/* Nagivation Link Color */
+.navbar-default .navbar-nav > li > a {
+    color: black !important;
+}
+
+/* Nav Link Hover Color */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #D30E00 !important;
+    color: white !important;
+}
+
+.navbar-default .navbar-text {
+    color: black;
+}
+
+/* Responsive Button Border */
+.navbar-default .navbar-toggle {
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+/* Responsive Button Background */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+/* Responsive Button Icon-color */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
