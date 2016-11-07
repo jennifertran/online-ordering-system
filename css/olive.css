@@ -9,12 +9,16 @@ img.media-object
   width: 160px;
 }
 
-img.daily-specials
+.daily-specials img
 {
-  position: relative;
+  /*
   top:-10px;
   left:160px;
   height: 340px;
+  */
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .add-minus-button
@@ -68,6 +72,7 @@ img.daily-specials
   height: 250px;
   text-align: left;
   font: bold 16px sans-serif;
+
 
   padding: 55px 50px;
   margin-top: 350px;

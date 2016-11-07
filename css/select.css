@@ -1,0 +1,20 @@
+.choose {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.choose img {
+    overflow: hidden;
+    height: 300px;
+    width: 80%;
+    border-color: #D30E00;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.choose p {
+    color: black;
+    font-size: 25px;
+}
