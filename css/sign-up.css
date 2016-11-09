@@ -1,0 +1,66 @@
+body
+{
+  background-color: #F2F2F2;
+}
+
+.banner
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.signup-card
+{
+  width: 365px;
+  height: 420px;
+  margin-left: 500px;
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+.signup-card h4
+{
+  margin-left: 15px;
+}
+
+.info-section
+{
+  padding-top: 15px;
+}
+
+.short-form
+{
+  width: 100px;
+}
+
+.long-form
+{
+  padding-left: 15px;
+  width: 300px;
+}
+
+.btn
+{
+  margin-top: 20px;
+}
+
+.btn-primary
+{
+  background-image: linear-gradient(to bottom, #D30E00 0, #CE0D00 100%) !important;
+  background-color: #D30E00 !important;
+  border-color: #CE0D00 !important;
+  border-radius: 5px !important;
+}
+
+.btn-primary:hover
+{
+  border-color: #D30E00 !important;
+}
+
+.btn:focus
+{
+  outline: none !important;
+}
