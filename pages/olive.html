@@ -17,6 +17,7 @@
   <!-- Required Libaries -->
   <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="../libs/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
 
   <script src="../js/jquery-3.1.1.min.js"></script>
   <script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -38,12 +39,35 @@
       </button>
     </div>
 
+    <form class="navbar-form navbar-left">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id= "navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right navName2">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#projects">Sign In</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="../index.html">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+            Home
+          </a>
+
+        </li>
+        <li>
+          <a href="#projects">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            Sign In
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+            Contact
+          </a>
+        </li>
       </ul>
 
     </div>
@@ -57,7 +81,7 @@
   <img src="../images/olive-garden/daily-specials.jpg">
 </div>
 
-<div class="dropdown">
+<div class="dropdown col-md-4">
   <button class="btn btn-default dropdown-toggle" type="button"
   id="dropdownmenu" data-toggle="dropdown">
   Category <span class="caret"></span>
@@ -69,6 +93,13 @@
     <li><a href="#">Drinks</a></li>
   </ul>
 </div>
+
+<form class="navbar-form navbar-left col-md-4">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">Search</button>
+</form>
 
 <div class="left-media-body">
   <hr>
@@ -139,7 +170,7 @@
 </div>
 
 <footer class="footer-distributed">
-  <div 
+  <div
   <div class="footer-left">
     <h3>Company
       <span>logo</span>
@@ -165,13 +196,11 @@
     </div>
     <div>
       <span class="glyphicon glyphicon-earphone footer-icons"></span>
-      <p> Phone
+      <p> Phone </p>
     </div>
     <div>
       <span class="glyphicon glyphicon-envelope footer-icons"></span>
-      <p>
-        <a href="mailto:Email">Email</a>
-      </p>
+      <p> Email </p>
     </div>
   </div>
   <div class="footer-right">
@@ -180,9 +209,9 @@
       Introduction
     </p>
     <div class="footer-icons">
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
+      <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+      <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
     </div>
   </div>
 </footer>
