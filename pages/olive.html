@@ -14,13 +14,17 @@
   <link rel="stylesheet" href="../css/global.css">
   <script type="text/javascript" src="../js/olive.js"></script>
 
+  <!-- FavIcon -->
+  <link rel="shortcut icon" href="../images/tomato.ico" type="image/x-icon">
+
   <!-- Required Libaries -->
   <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
   <link href="../libs/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
 
-  <script src="../js/jquery-3.1.1.min.js"></script>
-  <script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <!-- Font API'S -->
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto" rel="stylesheet">
+
 </head>
 
 <!-- Navigation bar -->
@@ -49,172 +53,181 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id= "navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right navName2">
-        <li>
-          <a href="../index.html">
-            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-            Home
-          </a>
 
-        </li>
-        <li>
-          <a href="#projects">
-            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-            Sign In
-          </a>
-        </li>
-        <li>
-          <a href="#contact">
-            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-            Contact
-          </a>
-        </li>
+        <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+
+        <li><a href="#projects"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
+
+        <li><a href="#contact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
       </ul>
-
     </div>
 
   </div>
 </nav>
 
 <body>
-
-<div class="daily-specials">
-  <img src="../images/olive-garden/daily-specials.jpg">
-</div>
-
-<div class="dropdown col-md-4">
-  <button class="btn btn-default dropdown-toggle" type="button"
-  id="dropdownmenu" data-toggle="dropdown">
-  Category <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelled-by="dropdownmenu">
-    <li><a href="#">Appetizer</a></li>
-    <li><a href="#">Main Course</a></li>
-    <li><a href="#">Dessert</a></li>
-    <li><a href="#">Drinks</a></li>
-  </ul>
-</div>
-
-<form class="navbar-form navbar-left col-md-4">
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search">
+  <!-- Daily Special Header -->
+  <div class="daily-specials">
+    <img src="../images/olive-garden/daily-special.jpg">
+    <div class="daily-text daily-font container-fluid">
+      <h2>Daily Special:</h2>
+      <i><p>Shrimp Fettuccine Alfredo</p></i>
+    </div>
+    <div class="daily-price daily-font container-fluid">
+      <h2>$8.99</h2>
+    </div>
   </div>
-  <button type="submit" class="btn btn-default">Search</button>
-</form>
 
-<div class="left-media-body">
-  <hr>
-  <div class="media dish1">
-    <a class="media-left" href="#">
-      <img class="media-object" src="../images/olive-garden/dish1.jpg"
-      alt="Generic placeholder image">
-    </a>
-    <div class="media-body">
-      <h4 class="media-heading">Dish1</h4>
-      <div class="add-minus-button">
-        <button type="button" class="btn pull-right btn-sq-xs btn-danger"
-        onclick="changeQuantity(+1)">+</button>
-        <span id="quantity" class="pull-right digit">
-          <script> displayQuantity();</script>
-        </span>
-        <button type="button" class="btn pull-right btn-sq-xs btn-danger"
-        onclick="changeQuantity(-1)">-</button>
+  <!-- Menu Content -->
+  <div class="menu container-fluid">
+
+    <div class="left-media-body col-md-8">
+
+      <div class="dropdown" style="center">
+        <button class="btn btn-default dropdown-toggle" type="button"
+        id="drop-down-menu" data-toggle="dropdown">Category <span class="caret"></span></button>
+
+        <ul class="dropdown-menu active" aria-labelled-by="drop-down-menu">
+          <li><a href="#">Appetizer</a></li>
+          <li><a href="#">Main Course</a></li>
+          <li><a href="#">Dessert</a></li>
+          <li><a href="#">Drinks</a></li>
+        </ul>
+      </div>
+
+        <center><h3>Appetizer</h3></center>
+        <hr>
+
+        <!-- Appetizer -->
+        <div class="appetizer">
+
+          <div class="media dish1">
+            <a class="media-left" onclick="return false">
+              <img class="media-object" src="../images/olive-garden/dish1.jpg"
+              alt="Generic placeholder image">
+            </a>
+
+            <div class="media-body">
+              <h3 class="media-heading">Dish 1</h3>
+              <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
+
+              <div class="add-minus-button">
+                <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+                <span id="quantity" class="pull-right digit">
+                  <script> displayQuantity();</script>
+                </span>
+                <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+              </div>
+            </div>
+          </div>
+
+        <hr>
+          <div class="media dish2">
+            <a class="media-left" onclick="return false">
+              <img class="media-object" src="../images/olive-garden/dish2.jpg"
+              alt="Generic placeholder image">
+            </a>
+            <div class="media-body">
+              <h3 class="media-heading">Dish 2</h3>
+              <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
+
+              <div class="add-minus-button">
+                <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(+1)">+</button>
+                <span id="quantity" class="pull-right digit">
+                  <script> displayQuantity();</script>
+                </span>
+                <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+                onclick="changeQuantity(-1)">-</button>
+              </div>
+            </div>
+
+          </div>
+
+      </div>
+      <hr>
+
+
+    </div>
+
+
+    <div class="right-checkout col-md-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Checkout</div>
+
+        <div class="panel-body">
+          <div class="form-group">
+            <div class="info">
+              Product name
+              <small class="quantity">
+                Quantity:
+                <span id="quantity2">
+                  <script> displayQuantity();</script>
+                </span>
+              </small>
+            </div>
+            <div class="price">
+              <span>$</span>
+              25.00
+            </div>
+          </div>
+        </div>
+        <div class="panel-footer">
+          <span>Subtotal:</span>
+        </div>
+      </div>
+
+      <center><button type="button" class="btn btn-lg btn-danger">Continue</button></center>
+    </div>
+
+  </div>
+
+  <!-- Footer Content -->
+  <footer class="footer-distributed container-fluid">
+    <div class="footer-left col-md-4">
+      <h3>Olive
+        <span>Garden</span>
+       </h3>
+       <div class="footer-icons">
+         <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
+         <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+         <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
+       </div>
+       <br>
+      <p class="footer-company-name">Olive Garden © 2016</p>
+    </div>
+    <div class="footer-center col-md-4">
+      <div>
+        <span class="glyphicon glyphicon-map-marker footer-icons"></span>
+        <p>
+          <span>1544 Portage Avenue</span>
+           Winnipeg, MB R3G0W9
+        </p>
+      </div>
+      <div>
+        <span class="glyphicon glyphicon-earphone footer-icons"></span>
+        <p> (204) 774-9725 </p>
+      </div>
+      <div>
+        <span class="glyphicon glyphicon-envelope footer-icons"></span>
+        <p> winnipeg@olivegarden.com </p>
       </div>
     </div>
-  </div>
 
-  <hr>
-  <div class="media dish2">
-    <a class="media-left" href="#">
-      <img class="media-object" src="../images/olive-garden/dish2.jpg"
-      alt="Generic placeholder image">
-    </a>
-    <div class="media-body">
-      <h4 class="media-heading">Dish2</h4>
-    </div>
-
-  </div>
-
-  <hr>
-</div>
-
-<div class="right-checkout">
-  <div class="panel panel-danger">
-    <div class="panel-heading">
-      Checkout
-    </div>
-    <div class="panel-body">
-      <div class="form-group">
-        <img class="">
-        <div class="info">
-          Product name
-          <small class="quantity">
-            Quantity:
-            <span id="quantity2">
-              <script> displayQuantity();</script>
-            </span>
-          </small>
-        </div>
-        <div class="price">
-          <span>$</span>
-          25.00
-        </div>
-      </div>
-    </div>
-    <div class="panel-footer">
-      <span>Subtotal:</span>
-    </div>
-  </div>
-  <button type="button" class="btn btn-lg btn-danger continue-button">
-    Continue
-  </button>
-</div>
-
-<footer class="footer-distributed">
-  <div
-  <div class="footer-left">
-    <h3>Company
-      <span>logo</span>
-     </h3>
-    <p class="footer-links">
-      <a href="#">Home</a>
-      -
-      <a href="#">Menu</a>
-      -
-      <a href="#">Sign in</a>
-      -
-      <a href="#">Contact</a>
-    </p>
-    <p class="footer-company-name">Company Name © 2016</p>
-  </div>
-  <div class="footer-center">
-    <div>
-      <span class="glyphicon glyphicon-map-marker footer-icons"></span>
-      <p>
-        <span>Pembenia Highway</span>
-         Winnipeg, Manitoba
+    <div class="footer-right col-md-4">
+      <p class="footer-company-about">
+        <span>About Olive Garden:</span>
+        Olive Garden has delicious Italian food perfect for the whole family. Whether you're looking for freshly baked breadsticks or perfectly made pasta, Olive Garden has something for any appetite
       </p>
     </div>
-    <div>
-      <span class="glyphicon glyphicon-earphone footer-icons"></span>
-      <p> Phone </p>
-    </div>
-    <div>
-      <span class="glyphicon glyphicon-envelope footer-icons"></span>
-      <p> Email </p>
-    </div>
-  </div>
-  <div class="footer-right">
-    <p class="footer-company-about">
-      <span>About the company</span>
-      Introduction
-    </p>
-    <div class="footer-icons">
-      <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
-      <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
-      <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
-    </div>
-  </div>
-</footer>
+  </footer>
+
+<!-- Javascript Libs -->
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

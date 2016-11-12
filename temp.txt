@@ -1,0 +1,104 @@
+<!-- Appetizers -->
+<hr>
+<div class="media dish1">
+
+  <img src="../images/olive-garden/dish1.jpg"alt="Generic placeholder image">
+
+    <h3>Dish1</h3>
+    <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak. Beef porchetta ball tip picanha corned beef t-bone turducken ham hock beef ribs burgdoggen short ribs fatback brisket pancetta. Pork belly alcatra kielbasa, hamburger brisket shank short loin fatback pig salami chuck pork loin bacon leberkas ribeye.</p>
+
+
+    <div class="add-minus-button">
+      <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+      onclick="changeQuantity(+1)">+</button>
+      <span id="quantity" class="pull-right digit">
+        <script> displayQuantity();</script>
+      </span>
+      <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+      onclick="changeQuantity(-1)">-</button>
+    </div>
+
+<hr>
+<div class="media dish2">
+  <a class="media-left" href="#">
+    <img class="media-object" src="../images/olive-garden/dish2.jpg"
+    alt="Generic placeholder image">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Dish2</h4>
+  </div>
+
+</div>
+
+<hr>
+
+
+
+
+
+
+<!-- Dish 1 -->
+<div class="dish1">
+  <img src="../images/olive-garden/dish1.jpg" align="left" hspace=20px; alt="Generic placeholder image">
+  <h3>Dish1</h3>
+  <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
+
+  <center><button type="button" class="btn pull-right btn-sq-xs btn-danger"
+  onclick="changeQuantity(+1)">+</button>
+  <span id="quantity" class="pull-right digit">
+    <script> displayQuantity();</script>
+  </span>
+  <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+  onclick="changeQuantity(-1)">-</button></center>
+  <hr>
+</div>
+
+<div class="dish2">
+  <img src="../images/olive-garden/dish2.jpg" align="left" hspace=20px; alt="Generic placeholder image">
+  <h3>Dish 2</h3>
+  <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
+
+  <center><button type="button" class="btn pull-right btn-sq-xs btn-danger"
+  onclick="changeQuantity(+1)">+</button>
+  <span id="quantity" class="pull-right digit">
+    <script> displayQuantity();</script>
+  </span>
+  <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+  onclick="changeQuantity(-1)">-</button></center>
+</div>
+
+
+
+
+<!-- Dish 1 -->
+<div class="appetizer">
+  <div>
+    <p>
+    <img src="../images/olive-garden/dish1.jpg" alt="Generic placeholder image" class="text-wrap">
+    <h3>Dish1</h3>
+    Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
+
+    <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+    onclick="changeQuantity(+1)">+</button>
+    <span id="quantity" class="pull-right digit">
+      <script> displayQuantity();</script>
+    </span>
+    <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+    onclick="changeQuantity(-1)">-</button>
+  </div>
+  <hr>
+
+  <div>
+  <img src="../images/olive-garden/dish2.jpg" alt="Generic placeholder image" class="text-wrap">
+  <h3>Dish 2</h3>
+  <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
+
+  <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+  onclick="changeQuantity(+1)">+</button>
+  <span id="quantity" class="pull-right digit">
+    <script> displayQuantity();</script>
+  </span>
+  <button type="button" class="btn pull-right btn-sq-xs btn-danger"
+  onclick="changeQuantity(-1)">-</button>
+</div>
+</div>
