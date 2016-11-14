@@ -7,16 +7,16 @@
   padding-top: 50px;
 }
 
-.signup-card
+.signin-card
 {
   width: 365px;
-  height: 420px;
+  height: 280px;
   margin-left: 500px;
   margin-top: 40px;
   border: 1px solid black;
 }
 
-.signup-card h4
+.signin-card h4
 {
   margin-left: 15px;
 }
@@ -37,9 +37,14 @@
   width: 300px;
 }
 
+.checkbox
+{
+  padding-left: 35px
+}
+
 .btn
 {
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 .btn-primary

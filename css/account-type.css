@@ -7,39 +7,24 @@
   padding-top: 50px;
 }
 
-.signup-card
-{
-  width: 365px;
-  height: 420px;
-  margin-left: 500px;
-  margin-top: 40px;
-  border: 1px solid black;
-}
-
-.signup-card h4
-{
-  margin-left: 15px;
-}
-
-.info-section
-{
-  padding-top: 15px;
-}
-
-.short-form
-{
-  width: 100px;
-}
-
-.long-form
-{
-  padding-left: 15px;
-  width: 300px;
-}
-
 .btn
 {
   margin-top: 20px;
+}
+
+.btn-1
+{
+  margin-left:450px;
+}
+
+.btn-2
+{
+  margin-left:85px;
+}
+
+.btn-3
+{
+  margin-left:85px;
 }
 
 .btn-primary

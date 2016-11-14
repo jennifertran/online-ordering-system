@@ -1,15 +1,16 @@
-<!-- This represents lets the user select the account type -->
+<!DOCTYPE html>
+<!-- This represents lets the user sign in -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Select Account Type</title>
+    <title>Sign In</title>
 
     <!-- Reference to other files -->
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/account-type.css">
+    <link rel="stylesheet" href="../css/sign-in.css">
 
     <!-- Required Libaries -->
     <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -66,31 +67,41 @@
       </div>
     </nav>
 
-<body>
-  <div class="banner">
-    Please Select Account Type
-  </div>
+  <body style="background-color: #F2F2F2">
 
-  <div>
-    <button type="button" class="btn btn-primary btn-lg btn-1">
-      <span title="For customers with small orders">Regular</span>
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-2">
-      <span title="For restaurant owners">Partner</span>
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-3">
-      <span title="For customers with large orders">Organizer</span>
-    </button>
-  </div>
+    <div class="banner">
+      Don't have an account?
+      <a href="#">Sign Up</a>
+    </div>
 
-  <!-- Link to Sign-up page here -->
+    <div class="signin-card container-fluid" style="background-color: white">
+      <div class="info-section">
+        <h4>Email:</h4>
+        <form  class="long-form" role="Email">
+          <input type="text" class="form-control" placeholder="Email">
+        </form>
+      </div>
 
+      <div class="info-section">
+        <h4>Password:</h4>
+        <form  class="long-form" role="Password">
+          <input type="text" class="form-control" placeholder="Password">
+        </form>
+      </div>
 
+      <form class="checkbox" action="">
+        <input type="checkbox">Remember Email
+      </form>
+
+      <center>
+      <button type="button" class="btn btn-primary btn-lg">Submit</button>
+    </center>
+
+    </div>
   <!-- Javascript Libs -->
   <script src="../js/jquery-3.1.1.min.js"></script>
   <script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
-
-</body>
+  </body>
 
 </html>
