@@ -54,26 +54,15 @@
     <div id= "navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right navName2">
 
-        <li>
-          <a href="../index.html">
-            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-             Home
-          </a>
+        <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
         </li>
 
-        <li>
-          <a href="sign-in.html">
-            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-             Sign In
-          </a>
+        <li><a href="sign-in.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a>
         </li>
 
-        <li>
-          <a href="#contact">
-            <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-            </span> Contact
-          </a>
+        <li><a href="#contact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a>
         </li>
+
       </ul>
     </div>
 
@@ -100,22 +89,20 @@
 
       <div class="dropdown" style="center">
         <button class="btn btn-default dropdown-toggle" type="button"
-        id="drop-down-menu" data-toggle="dropdown">Category <span class="caret"></span></button>
+        id="drop-down-menu" data-toggle="dropdown">Choose Category <span class="caret"></span></button>
 
         <ul class="dropdown-menu active" aria-labelled-by="drop-down-menu">
-          <li><a href="#">Appetizer</a></li>
-          <li><a href="#">Main Course</a></li>
-          <li><a href="#">Dessert</a></li>
-          <li><a href="#">Drinks</a></li>
+          <li><a onClick="showHide('appetizer');" href="#">Appetizer</a></li>
+          <li><a onClick="showHide('main-course');" href="#">Main Course</a></li>
+          <li><a onClick="showHide('dessert');" href="#">Dessert</a></li>
+          <li><a onClick="showHide('drinks');" href="#">Drinks</a></li>
         </ul>
       </div>
 
-        <center><h3>Appetizer</h3></center>
-        <hr>
-
         <!-- Appetizer -->
-        <div class="appetizer">
-
+        <div id="appetizer">
+          <center><h3>Appetizer</h3></center>
+          <hr>
           <div class="media dish1">
             <a class="media-left" onclick="return false">
               <img class="media-object" src="../images/olive-garden/dish1.jpg"
@@ -135,17 +122,19 @@
                 <button type="button" class="btn pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(-1)">-</button>
               </div>
+
             </div>
           </div>
 
-        <hr>
+          <hr>
           <div class="media dish2">
             <a class="media-left" onclick="return false">
               <img class="media-object" src="../images/olive-garden/dish2.jpg"
               alt="Generic placeholder image">
             </a>
+
             <div class="media-body">
-              <h3 class="media-heading">Dish 2</h3>
+              <h3 class="media-heading">Dish 1</h3>
               <p>Bacon ipsum dolor amet spare ribs kielbasa chicken leberkas. Brisket shank andouille cow pancetta beef tongue fatback pork belly turkey ground round pig. Picanha pork chop t-bone, shank turducken sausage prosciutto meatloaf leberkas strip steak bacon cupim porchetta. Jowl corned beef pork chop, ribeye ham hock chuck sausage. Ribeye ball tip cupim shank corned beef kielbasa leberkas pig ham strip steak.</p>
 
               <div class="add-minus-button">
@@ -157,16 +146,32 @@
                 <button type="button" class="btn pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(-1)">-</button>
               </div>
-            </div>
 
+            </div>
           </div>
 
-      </div>
-      <hr>
 
+        </div> <!-- End appetizer -->
+
+        <!-- Main Course -->
+        <div id="main-course">
+          <center><h3>Main Course</h3></center>
+          <hr>
+        </div>
+
+        <!-- Dessert-->
+        <div id="dessert">
+          <center><h3>Dessert</h3></center>
+          <hr>
+        </div>
+
+        <!-- Drinks -->
+        <div id="drinks">
+          <center><h3>Drinks</h3></center>
+          <hr>
+        </div>
 
     </div>
-
 
     <div class="right-checkout col-md-4">
       <div class="panel panel-danger">

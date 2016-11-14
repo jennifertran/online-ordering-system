@@ -108,6 +108,21 @@
   padding-right: 10px
 }
 
+#appetizer {
+  display: block;
+}
+
+#main-course {
+  display: none;
+}
+
+#dessert {
+  display: none;
+}
+
+#drinks {
+  display: none;
+}
 
 /* Footer Stuff */
 .panel-footer
