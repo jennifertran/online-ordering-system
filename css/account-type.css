@@ -1,15 +1,15 @@
 .banner
 {
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: black;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 170px;
 }
 
 .btn
 {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .btn-1
