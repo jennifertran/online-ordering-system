@@ -1,0 +1,31 @@
+.banner
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.btn
+{
+  margin-top: 40px;
+}
+
+.btn-primary
+{
+  background-image: linear-gradient(to bottom, #D30E00 0, #CE0D00 100%) !important;
+  background-color: #D30E00 !important;
+  border-color: #CE0D00 !important;
+  border-radius: 5px !important;
+}
+
+.btn-primary:hover
+{
+  border-color: #D30E00 !important;
+}
+
+.btn:focus
+{
+  outline: none !important;
+}
