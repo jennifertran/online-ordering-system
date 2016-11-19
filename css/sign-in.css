@@ -7,12 +7,17 @@
   padding-top: 50px;
 }
 
+.social-media-button
+{
+  padding-top: 10px;
+}
+
 .signin-card
 {
   width: 365px;
   height: 280px;
   margin-left: 500px;
-  margin-top: 40px;
+  margin-top: 20px;
   border: 1px solid black;
 }
 
