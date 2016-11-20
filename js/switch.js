@@ -22,3 +22,24 @@ function showHide(value) {
   prev = value;
 
 }
+
+jQuery(document).ready(function(){
+  var checkoutOffset = jQuery(".right-checkout").offset().top;
+
+  jQuery(window).scroll(function(){
+    var scrollPos = jQuery(window).scrollTop();
+
+    if(scrollPos >= checkoutOffset-55){
+      jQuery(".right-checkout").css({
+        position: 'fixed',
+        top: '55px',
+        left: '890px'
+      });
+    }
+    else {
+      jQuery(".right-checkout").css({
+        position: 'static'
+      });
+    }
+  });
+});
