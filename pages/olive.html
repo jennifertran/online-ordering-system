@@ -110,8 +110,8 @@
               <div class="add-minus-button">
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(+1,1)">+</button>
-                <span id="quantity" class="pull-right digit">
-                  <script> displayQuantity();</script>
+                <span id="quantity1-1" class="pull-right digit">0
+                  <script> displayQuantity(1);</script>
                 </span>
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
                 onclick="changeQuantity(-1,1)">-</button>
@@ -133,12 +133,12 @@
 
               <div class="add-minus-button">
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">
-                  <script> displayQuantity();</script>
+                onclick="changeQuantity(+1,2)">+</button>
+                <span id="quantity2-1" class="pull-right digit">0
+                  <script> displayQuantity(2);</script>
                 </span>
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
+                onclick="changeQuantity(-1,2)">-</button>
               </div>
 
             </div>
@@ -157,12 +157,12 @@
 
               <div class="add-minus-button">
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">
-                  <script> displayQuantity();</script>
+                onclick="changeQuantity(+1,3)">+</button>
+                <span id="quantity3-1" class="pull-right digit">0
+                  <script> displayQuantity(3);</script>
                 </span>
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
+                onclick="changeQuantity(-1,3)">-</button>
               </div>
 
             </div>
@@ -181,12 +181,12 @@
 
               <div class="add-minus-button">
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(+1)">+</button>
-                <span id="quantity" class="pull-right digit">
-                  <script> displayQuantity();</script>
+                onclick="changeQuantity(+1,4)">+</button>
+                <span id="quantity4-1" class="pull-right digit">0
+                  <script> displayQuantity(4);</script>
                 </span>
                 <button type="button" class="btn btn-primary pull-right btn-sq-xs btn-danger"
-                onclick="changeQuantity(-1)">-</button>
+                onclick="changeQuantity(-1,4)">-</button>
               </div>
 
             </div>
@@ -505,13 +505,13 @@
         <div class="panel-heading">Checkout</div>
 
         <div class="panel-body">
-          <div class="check1">
+          <div id="check1">
 
             <div class="info">
               Classic Calamari
               <small class="quantity">
                 Quantity:
-                <span id="quantity2">
+                <span id="quantity1-2">
                   <script> displayQuantity(1);</script>
                 </span>
               </small>
@@ -521,17 +521,15 @@
             </div>
 
           </div>
-          <!--
-          <br>
 
-          <div class="check2">
-
+          <div id="check2">
+            <br>
             <div class="info">
               Classic Shrimp Scampi Fritta
               <small class="quantity">
                 Quantity:
-                <span id="quantity2">
-                  <script> displayQuantity();</script>
+                <span id="quantity2-2">
+                  <script> displayQuantity(2);</script>
                 </span>
               </small>
             </div>
@@ -541,16 +539,14 @@
 
           </div>
 
-          <br>
-
-          <div class="check3">
-
+          <div id="check3">
+            <br>
             <div class="info">
               Stuffed Mushrooms
               <small class="quantity">
                 Quantity:
-                <span id="quantity2">
-                  <script> displayQuantity();</script>
+                <span id="quantity3-2">
+                  <script> displayQuantity(3);</script>
                 </span>
               </small>
             </div>
@@ -560,16 +556,15 @@
 
           </div>
 
-          <br>
 
-          <div class="check4">
-
+          <div id="check4">
+            <br>
             <div class="info">
               Five Italian Cheese Fonduta
               <small class="quantity">
                 Quantity:
-                <span id="quantity2">
-                  <script> displayQuantity();</script>
+                <span id="quantity4-2">
+                  <script> displayQuantity(4);</script>
                 </span>
               </small>
             </div>
@@ -578,7 +573,6 @@
             </div>
 
           </div>
-        -->
 
         </div>
         <div class="panel-footer">
