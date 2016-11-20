@@ -12,9 +12,13 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/sign-in.css">
 
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="images/tomato.ico" type="image/x-icon">
+
     <!-- Required Libaries -->
     <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../libs/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Font API'S -->
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto" rel="stylesheet">
@@ -40,26 +44,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id= "navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right navName2">
-            <li>
-              <a href="../index.html">
-                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                 Home
-              </a>
-            </li>
+            <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
 
-            <li>
-              <a href="sign-in.html">
-                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                 Sign In
-              </a>
-            </li>
+            <li><a href="#projects"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
 
-            <li>
-              <a href="#contact">
-                <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                </span> Contact
-              </a>
-            </li>
+            <li><a href="#contact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
           </ul>
 
         </div>
@@ -73,6 +62,11 @@
       Don't have an account?
       <a href="account-type.html">Sign Up</a>
     </div>
+
+    <center class="social-media-button">
+      <a class="btn btn-primary btn-md"><span class="fa fa-facebook"></span> Sign in with Facebook</a>
+      <a class="btn btn-primary btn-md"><span class="fa fa-google"></span> Sign in with Google</a>
+    </center>
 
     <div class="signin-card container-fluid" style="background-color: white">
       <div class="info-section">
@@ -94,7 +88,7 @@
       </form>
 
       <center>
-      <button type="button" class="btn btn-primary btn-lg">Submit</button>
+      <a href="#" class="btn btn-primary btn-lg">Sign In</a>
     </center>
 
     </div>

@@ -50,11 +50,6 @@ function displayQuantity(num)
   {
     document.getElementById("quantity").innerHTML = dish1.toString();
     document.getElementById("quantity2").innerHTML = dish1.toString();
-
-    if(dish1 === 0)
-    {
-      
-    }
   }
 
 }

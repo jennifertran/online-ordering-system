@@ -12,21 +12,6 @@
   margin-top: 40px;
 }
 
-.btn-1
-{
-  margin-left:450px;
-}
-
-.btn-2
-{
-  margin-left:85px;
-}
-
-.btn-3
-{
-  margin-left:85px;
-}
-
 .btn-primary
 {
   background-image: linear-gradient(to bottom, #D30E00 0, #CE0D00 100%) !important;
@@ -43,12 +28,4 @@
 .btn:focus
 {
   outline: none !important;
-}
-
-a:focus, a:hover {
-  color: white !important;
-}
-
-a {
-  color: white;
 }

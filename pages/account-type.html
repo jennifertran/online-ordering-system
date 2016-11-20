@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/account-type.css">
 
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="images/tomato.ico" type="image/x-icon">
+
     <!-- Required Libaries -->
     <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -39,26 +42,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id= "navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right navName2">
-            <li>
-              <a href="../index.html">
-                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                 Home
-              </a>
-            </li>
+            <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
 
-            <li>
-              <a href="sign-in.html">
-                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                 Sign In
-              </a>
-            </li>
+            <li><a href="#projects"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
 
-            <li>
-              <a href="#contact">
-                <span class="glyphicon glyphicon-earphone" aria-hidden="true">
-                </span> Contact
-              </a>
-            </li>
+            <li><a href="#contact"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
           </ul>
 
         </div>
@@ -67,28 +55,13 @@
     </nav>
 
 <body>
-  <div class="banner">
-    Please Select Account Type
-  </div>
+  <div class="banner">Please Select Account Type</div>
 
   <div>
-
-    <button type="button" class="btn btn-primary btn-lg btn-1">
-      <a href="sign-up.html">
-      <span title="For customers with small orders">Regular</span></a>
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-2">
-      <a href="sign-up.html">
-      <span title="For restaurant owners">Partner</span></a>
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-3">
-      <a href="sign-up.html">
-      <span title="For customers with large orders">Organizer</span></a>
-    </button>
+    <a href="sign-up.html" class="btn btn-primary btn-lg btn-1"><span title="For customers with small orders">Regular</span></a>
+    <a href="sign-up.html" class="btn btn-primary btn-lg btn-2"><span title="For restaurant owners">Partner</span></a>
+    <a href="sign-up.html" class="btn btn-primary btn-lg btn-3"><span title="For customers with large orders">Organizer</span></a>
   </div>
-
-  <!-- Link to Sign-up page here -->
-
 
   <!-- Javascript Libs -->
   <script src="../js/jquery-3.1.1.min.js"></script>
