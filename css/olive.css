@@ -130,6 +130,13 @@
   height: 40px;
 }
 
+.panel-danger>.panel-heading {
+    color: #FFFFFF !important;
+    background-color: #D30E00 !important;
+    border-color: #CE0D00 !important;
+    background-image: linear-gradient(to bottom,#D30E00,#CE0D00 100%) !important;
+}
+
 .quantity
 {
   float: right;
@@ -298,3 +305,5 @@
 {
   color: grey;
 }
+
+/* Checkout Stuff */
