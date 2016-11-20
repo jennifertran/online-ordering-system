@@ -1,0 +1,44 @@
+.left-form
+{
+  margin-left: 110px;
+}
+
+.long-form
+{
+  width: 400px;
+}
+
+.message
+{
+  height: 170px;
+}
+
+.right-info
+{
+  padding-top: 110px;
+  margin-left: 80px;
+  font-size: 20px;
+}
+
+.company-info
+{
+  padding-top: 15px;
+}
+
+.btn-primary
+{
+  background-image: linear-gradient(to bottom, #D30E00 0, #CE0D00 100%) !important;
+  background-color: #D30E00 !important;
+  border-color: #CE0D00 !important;
+  border-radius: 5px !important;
+}
+
+.btn-primary:hover
+{
+  border-color: #D30E00 !important;
+}
+
+.btn:focus
+{
+  outline: none !important;
+}
