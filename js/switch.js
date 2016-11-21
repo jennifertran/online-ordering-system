@@ -33,7 +33,7 @@ jQuery(document).ready(function(){
       jQuery(".right-checkout").css({
         position: 'fixed',
         top: '60px',
-        left: '890px'
+        right: '10px'
       });
     }
     else {

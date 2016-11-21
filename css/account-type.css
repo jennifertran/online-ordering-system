@@ -7,24 +7,10 @@
   padding-top: 170px;
 }
 
-.btn
+div.account-type
 {
   margin-top: 40px;
-}
-
-.btn-1
-{
-  margin-left:450px;
-}
-
-.btn-2
-{
-  margin-left:85px;
-}
-
-.btn-3
-{
-  margin-left:85px;
+  text-align: center;
 }
 
 .btn-primary

@@ -58,22 +58,8 @@
 
 	<div class="signup-card container-fluid" style="background-color: white">
     <div class="col-md-8">
-      <form name="contactInfo">
-        <br>
-        <fieldset>
-          <legend>Contact Info</legend>
-
-          Name*: <input type="text" name="name"> </br>
-          Email*: <input type="text" name="email"> </br>
-          Phone Number*: <input type="text" name="phoneNum"> </br>
-          Address*: <input type="text" name="address"> </br>
-          City*: <input type="text" name="city" value="Winnipeg">
-          Province*: <input type="text" name="prov" value="MB"> </br>
-          Postal Code*: <input type="text" name="pCode"> </br></br>
-        </fieldset>
-      </form>
-
       <form name="deliveryMethod">
+      <br>
         <fieldset>
           <legend>Delivery Method</legend>
 
@@ -82,10 +68,24 @@
         </fieldset>
       </form>
 
+      <form name="contactInfo">
+        <fieldset>
+          <legend>Contact Info</legend>
+
+          Name*: <input style="margin-bottom: 5px;" type="text" name="name"> </br>
+          Email*: <input style="margin-bottom: 5px;" type="email" name="email"> </br>
+          Phone Number*: <input style="margin-bottom: 5px; width: 130px" type="text" name="phoneNum"> </br></br>
+          Address*: <input style="margin-bottom: 5px;" type="text" name="address"> </br>
+          City*: <input style="margin-bottom: 5px; width: 100px" type="text" name="city" value="Winnipeg">&nbsp;
+          Province*: <input style="margin-bottom: 5px; width: 30px" type="text" name="prov" value="MB"> </br>
+          Postal Code*: <input style="margin-bottom: 5px; width: 70px" type="text" name="pCode"> </br></br>
+        </fieldset>
+      </form>
+
       <form>
         <fieldset>
           <legend>Special Instructions</legend>
-          <textarea name="addInfo" rows="5" cols="30"></textarea>
+          <textarea name="addInfo" rows="5" cols="30" placeholder="allergy etc."></textarea>
         </fieldset>
       </form>
 
@@ -93,25 +93,24 @@
         <br>
         <fieldset>
           <legend>Payment Method</legend>
-          <input type="radio" name="cash" checked> Cash
-          <input type="radio" name="cardAtDoor"> Payment-Card at the Door
-          <input type="radio" name="creditCard"> Credit Card</br></br>
-          Name*: <input type="text" name="name"> </br>
-          Card Number*: <input type="text" name="cardNum"> </br>
-          Exp Date*: <input type="text" name="mm">/<input type="text" name="yy">
-          CVV*: <input type="text" name="cvv"> </br>
+          <input type="radio" name="payment" checked> Credit Card&nbsp;
+          <input type="radio" name="payment"> Cash&nbsp;
+          <input type="radio" name="payment"> Payment-Card at the Door</br></br>
+          Cardholder Name*: <input style="margin-bottom: 5px; type="text" name="name"> </br>
+          Card Number*: <input style="margin-bottom: 5px; type="text" name="cardNum"> </br>
+          Exp Date*: <input type="text" placeholder="MM" style="width: 30px;"> / <input type="text" placeholder="YY" style="width: 30px;">&nbsp;
+          CVV*: <input type="text" name="cvv" style="width: 40px;"> </br>
+          &nbsp;<input type="checkbox" name="remCard"><i>*remember my payment info (signed-in only)</i>
         </fieldset>
       </form>
 
-
-      <a href="#" class="btn btn-primary btn-lg btn-1"><span title="For customers with small orders">Save</span></a>
-      <a href="thank-you.html" class="btn btn-primary btn-lg btn-1"><span title="Submit">Submit</span></a>
+      <a href="thank-you.html" class="btn btn-primary btn-lg btn-1"><span title="Submit">COMPLETE ORDER</span></a>
       <br>
       <br>
 
     </div>
 
-    <div class="col-md-4">
+    <div class="right-checkout col-md-4">
       <br>
       <br>
       <div class="panel panel-danger">
@@ -125,7 +124,7 @@
               <small class="quantity">
                 Quantity:
                 <span id="quantity1-2">
-                  <script> displayQuantity(1);</script>
+                  1
                 </span>
               </small>
             </div>
@@ -142,7 +141,7 @@
               <small class="quantity">
                 Quantity:
                 <span id="quantity2-2">
-                  <script> displayQuantity(2);</script>
+                  1
                 </span>
               </small>
             </div>
@@ -159,7 +158,7 @@
               <small class="quantity">
                 Quantity:
                 <span id="quantity3-2">
-                  <script> displayQuantity(3);</script>
+                  1
                 </span>
               </small>
             </div>
@@ -177,7 +176,7 @@
               <small class="quantity">
                 Quantity:
                 <span id="quantity4-2">
-                  <script> displayQuantity(4);</script>
+                  1
                 </span>
               </small>
             </div>
@@ -191,8 +190,24 @@
         <div class="panel-footer">
           <span>Subtotal:</span>
           <div class="pull-right">$
-            <span id="total">0.00<script>displayTotal()</script></span>
+            <span id="total">49.48</script></span>
+          </div><br>
+          <span>GST(5%):</span>
+          <div class="pull-right">$
+            <span id="total">2.47</script></span>
+          </div><br>
+          <span>PST(8%):</span>
+          <div class="pull-right">$
+            <span id="total">3.96</script></span>
+          </div><br>
+
+          <div style="font-weight: bold; font-size: 20px">
+            <span>Total:</span>
+            <div class="pull-right">$
+              <span id="total">55.91</script></span>
+            </div>
           </div>
+
         </div>
       </div>
 

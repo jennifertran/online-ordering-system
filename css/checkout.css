@@ -55,7 +55,7 @@
 /* Footer Stuff */
 .panel-footer
 {
-  height: 40px;
+  height: 100px;
 }
 
 .panel-danger>.panel-heading {
@@ -232,4 +232,11 @@
 .footer-icons
 {
   color: grey;
+}
+
+div.right-checkout
+{
+  position: fixed;
+  top: 11%;
+  right: 10%;
 }

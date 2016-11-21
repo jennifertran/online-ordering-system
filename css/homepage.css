@@ -14,6 +14,13 @@ h2 {
     color: black;
 }
 
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+}
+
 .contact-icon {
     color: #D30E00;
     padding-right:25px;
