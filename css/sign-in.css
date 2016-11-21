@@ -15,7 +15,7 @@
 .signin-card
 {
   width: 365px;
-  height: 280px;
+  height: 310px;
   margin-left: 500px;
   margin-top: 20px;
   border: 1px solid black;
@@ -45,6 +45,13 @@
 .checkbox
 {
   padding-left: 35px
+}
+
+.forgot-password
+{
+  padding-left: 15px;
+  font-style: italic;
+  color: black;
 }
 
 .btn
