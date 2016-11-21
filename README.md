@@ -1,20 +1,15 @@
-# online-ordering-system
+# Online Ordering System
 A web application that is an online ordering network
 
-### How to stay in sync
-```sh
-# Always do this first before making any changes!
-git pull
-```
+To view the project, click <a href="https://jennifertran.github.io/online-ordering-system/" target="_blank">here</a>  
 
-### How to merge to master
-```sh
-# Adds all the new files you changed
-git add .
+Created by Jennifer Tran, Hui Jin, Zhikan Xu, and Gary Tong
 
-# Saves your changes
-git commit -m "message here"
+### Features
+<b>1) Selecting a restaurant</b>
+<br>
+![alt tag](http://images/screenshots/screen1.jpg)
+<br>
 
-# Push your changes to the remote repository
-git push -u origin master
-```
+### How to contribute
+If there is anything you see here that needs fixing please branch off of the application and send in a pull request.
