@@ -7,9 +7,9 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Checkout - Online Ordering Network</title>
+	<title>Checkout</title>
 
-	<link rel="stylesheet" href="../css/olive.css">
+	<link rel="stylesheet" href="../css/checkout.css">
   	<link rel="stylesheet" href="../css/global.css">
 
   	<!-- FavIcon -->
@@ -28,7 +28,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
 
-    <a href ="#" class = "navbar-brand navbar-left navName" style="color: black">Online Ordering Network - Checkout</a>
+    <a href ="#" class = "navbar-brand navbar-left navName" style="color: black">Online Ordering Network</a>
 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -54,103 +54,197 @@
   </div>
 </nav>
 
-<body>
+<body style="background-color: #F2F2F2">
 
-<form name="contactInfo">
-	<fieldset>
-		<legend>Contact Info</legend>
+	<div class="signup-card container-fluid" style="background-color: white">
+    <div class="col-md-8">
+      <form name="contactInfo">
+        <br>
+        <fieldset>
+          <legend>Contact Info</legend>
 
-		Name*: <input type="text" name="name"> </br>
-		Email*: <input type="text" name="email"> </br>
-		Phone Number*: <input type="text" name="phoneNum"> </br>
-		Address*: <input type="text" name="address"> </br>
-		City*: <input type="text" name="city" value="Winnipeg">
-		Province*: <input type="text" name="prov" value="MB"> </br>
-		Postal Code*: <input type="text" name="pCode"> </br></br>
-	</fieldset>
-</form>
+          Name*: <input type="text" name="name"> </br>
+          Email*: <input type="text" name="email"> </br>
+          Phone Number*: <input type="text" name="phoneNum"> </br>
+          Address*: <input type="text" name="address"> </br>
+          City*: <input type="text" name="city" value="Winnipeg">
+          Province*: <input type="text" name="prov" value="MB"> </br>
+          Postal Code*: <input type="text" name="pCode"> </br></br>
+        </fieldset>
+      </form>
 
-<form name="deliveryMethod">
-	<fieldset>
-		<legend>Delivery Method</legend>
+      <form name="deliveryMethod">
+        <fieldset>
+          <legend>Delivery Method</legend>
 
-		<input type="radio" name="method" value="pickup" checked> Pick-up</br>
-		<input type="radio" name="method" value="delivery"> Delivery</br></br>
-	</fieldset>
-</form>
+          <input type="radio" name="method" value="pickup" checked> Pick-up</br>
+          <input type="radio" name="method" value="delivery"> Delivery</br></br>
+        </fieldset>
+      </form>
 
-<form>
-	<fieldset>
-		<legend>Special Instructions</legend>
-		<textarea name="addInfo" rows="5" cols="30"></textarea>
-	</fieldset>
-</form>
+      <form>
+        <fieldset>
+          <legend>Special Instructions</legend>
+          <textarea name="addInfo" rows="5" cols="30"></textarea>
+        </fieldset>
+      </form>
 
-<form>
-	<fieldset>
-		<legend>Payment Method</legend>
-		<input type="radio" name="cash" checked> Cash  
-		<input type="radio" name="cardAtDoor"> Payment-Card at the Door  
-		<input type="radio" name="creditCard"> Credit Card</br></br>
-		Name*: <input type="text" name="name"> </br>
-		Card Number*: <input type="text" name="cardNum"> </br>
-		Exp Date*: <input type="text" name="mm">/<input type="text" name="yy">
-		CVV*: <input type="text" name="cvv"> </br>
-	</fieldset>
-</form>
+      <form>
+        <br>
+        <fieldset>
+          <legend>Payment Method</legend>
+          <input type="radio" name="cash" checked> Cash
+          <input type="radio" name="cardAtDoor"> Payment-Card at the Door
+          <input type="radio" name="creditCard"> Credit Card</br></br>
+          Name*: <input type="text" name="name"> </br>
+          Card Number*: <input type="text" name="cardNum"> </br>
+          Exp Date*: <input type="text" name="mm">/<input type="text" name="yy">
+          CVV*: <input type="text" name="cvv"> </br>
+        </fieldset>
+      </form>
 
-<form>
-	<fieldset>
-		<legend>One More Step</legend>
-		Total: $10.00 </br>
-		<input type="button" name="complete" value="COMPLETE ORDER" onclick="alert('insert summary info')"> 
-	</fieldset>
-</form>
 
-  <!-- Footer Content -->
-  <footer class="footer-distributed container-fluid">
-    <div class="footer-left col-md-4">
-      <h3>Olive
-        <span>Garden</span>
-       </h3>
-       <div class="footer-icons">
-         <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
-         <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
-         <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
-       </div>
-       <br>
-      <p class="footer-company-name">Olive Garden © 2016</p>
-    </div>
-    <div class="footer-center col-md-4">
-      <div>
-        <span class="glyphicon glyphicon-map-marker footer-icons"></span>
-        <p>
-          <span>1544 Portage Avenue</span>
-           Winnipeg, MB R3G0W9
-        </p>
-      </div>
-      <div>
-        <span class="glyphicon glyphicon-earphone footer-icons"></span>
-        <p> (204) 774-9725 </p>
-      </div>
-      <div>
-        <span class="glyphicon glyphicon-envelope footer-icons"></span>
-        <p> winnipeg@olivegarden.com </p>
-      </div>
+      <a href="#" class="btn btn-primary btn-lg btn-1"><span title="For customers with small orders">Save</span></a>
+      <a href="thank-you.html" class="btn btn-primary btn-lg btn-1"><span title="Submit">Submit</span></a>
+      <br>
+      <br>
+
     </div>
 
-    <div class="footer-right col-md-4">
-      <p class="footer-company-about">
-        <span>About Olive Garden:</span>
-        Olive Garden has delicious Italian food perfect for the whole family. Whether you're looking for freshly baked breadsticks or perfectly made pasta, Olive Garden has something for any appetite
+    <div class="col-md-4">
+      <br>
+      <br>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Summary</div>
+
+        <div class="panel-body">
+          <div id="check1">
+
+            <div class="info">
+              Classic Calamari
+              <small class="quantity">
+                Quantity:
+                <span id="quantity1-2">
+                  <script> displayQuantity(1);</script>
+                </span>
+              </small>
+            </div>
+            <div class="price">
+              $ 20.75
+            </div>
+
+          </div>
+
+          <div id="check2">
+            <br>
+            <div class="info">
+              Classic Shrimp Scampi Fritta
+              <small class="quantity">
+                Quantity:
+                <span id="quantity2-2">
+                  <script> displayQuantity(2);</script>
+                </span>
+              </small>
+            </div>
+            <div class="price">
+              $ 10.75
+            </div>
+
+          </div>
+
+          <div id="check3">
+            <br>
+            <div class="info">
+              Stuffed Mushrooms
+              <small class="quantity">
+                Quantity:
+                <span id="quantity3-2">
+                  <script> displayQuantity(3);</script>
+                </span>
+              </small>
+            </div>
+            <div class="price">
+              $ 9.99
+            </div>
+
+          </div>
+
+
+          <div id="check4">
+            <br>
+            <div class="info">
+              Five Italian Cheese Fonduta
+              <small class="quantity">
+                Quantity:
+                <span id="quantity4-2">
+                  <script> displayQuantity(4);</script>
+                </span>
+              </small>
+            </div>
+            <div class="price">
+              $ 7.99
+            </div>
+
+          </div>
+
+        </div>
+        <div class="panel-footer">
+          <span>Subtotal:</span>
+          <div class="pull-right">$
+            <span id="total">0.00<script>displayTotal()</script></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+	</div>
+
+</div>
+
+<!-- Footer Content -->
+<footer class="footer-distributed container-fluid">
+  <div class="footer-left col-md-4">
+    <h3>Olive
+      <span>Garden</span>
+     </h3>
+     <div class="footer-icons">
+       <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
+       <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+       <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
+     </div>
+     <br>
+    <p class="footer-company-name">Olive Garden © 2016</p>
+  </div>
+  <div class="footer-center col-md-4">
+    <div>
+      <span class="glyphicon glyphicon-map-marker footer-icons"></span>
+      <p>
+        <span>1544 Portage Avenue</span>
+         Winnipeg, MB R3G0W9
       </p>
     </div>
-  </footer>
+    <div>
+      <span class="glyphicon glyphicon-earphone footer-icons"></span>
+      <p> (204) 774-9725 </p>
+    </div>
+    <div>
+      <span class="glyphicon glyphicon-envelope footer-icons"></span>
+      <p> winnipeg@olivegarden.com </p>
+    </div>
+  </div>
+
+  <div class="footer-right col-md-4">
+    <p class="footer-company-about">
+      <span>About Olive Garden:</span>
+      Olive Garden has delicious Italian food perfect for the whole family. Whether you're looking for freshly baked breadsticks or perfectly made pasta, Olive Garden has something for any appetite
+    </p>
+  </div>
+</footer>
 
 <!-- Javascript Libs -->
 <script src="../js/jquery-3.1.1.min.js"></script>
 <script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/switch.js"></script>
 <script type="text/javascript" src="../js/menu.js"></script>
 </body>
 </html>
