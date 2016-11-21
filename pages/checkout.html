@@ -1,1 +1,156 @@
 <!-- Refer to polished idea #3 in google drive -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Checkout - Online Ordering Network</title>
+
+	<link rel="stylesheet" href="../css/olive.css">
+  	<link rel="stylesheet" href="../css/global.css">
+
+  	<!-- FavIcon -->
+  	<link rel="shortcut icon" href="../images/tomato.ico" type="image/x-icon">
+
+ 	<!-- Required Libaries -->
+  	<link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="../libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  	<link href="../libs/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+  	<!-- Font API'S -->
+  	<link href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto" rel="stylesheet">
+</head>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+
+    <a href ="#" class = "navbar-brand navbar-left navName" style="color: black">Online Ordering Network - Checkout</a>
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id= "navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right navName2">
+        <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+
+        <li><a href="sign-in.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
+
+        <li><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<body>
+
+<form name="contactInfo">
+	<fieldset>
+		<legend>Contact Info</legend>
+
+		Name*: <input type="text" name="name"> </br>
+		Email*: <input type="text" name="email"> </br>
+		Phone Number*: <input type="text" name="phoneNum"> </br>
+		Address*: <input type="text" name="address"> </br>
+		City*: <input type="text" name="city" value="Winnipeg">
+		Province*: <input type="text" name="prov" value="MB"> </br>
+		Postal Code*: <input type="text" name="pCode"> </br></br>
+	</fieldset>
+</form>
+
+<form name="deliveryMethod">
+	<fieldset>
+		<legend>Delivery Method</legend>
+
+		<input type="radio" name="method" value="pickup" checked> Pick-up</br>
+		<input type="radio" name="method" value="delivery"> Delivery</br></br>
+	</fieldset>
+</form>
+
+<form>
+	<fieldset>
+		<legend>Special Instructions</legend>
+		<textarea name="addInfo" rows="5" cols="30"></textarea>
+	</fieldset>
+</form>
+
+<form>
+	<fieldset>
+		<legend>Payment Method</legend>
+		<input type="radio" name="cash" checked> Cash  
+		<input type="radio" name="cardAtDoor"> Payment-Card at the Door  
+		<input type="radio" name="creditCard"> Credit Card</br></br>
+		Name*: <input type="text" name="name"> </br>
+		Card Number*: <input type="text" name="cardNum"> </br>
+		Exp Date*: <input type="text" name="mm">/<input type="text" name="yy">
+		CVV*: <input type="text" name="cvv"> </br>
+	</fieldset>
+</form>
+
+<form>
+	<fieldset>
+		<legend>One More Step</legend>
+		Total: $10.00 </br>
+		<input type="button" name="complete" value="COMPLETE ORDER" onclick="alert('insert summary info')"> 
+	</fieldset>
+</form>
+
+  <!-- Footer Content -->
+  <footer class="footer-distributed container-fluid">
+    <div class="footer-left col-md-4">
+      <h3>Olive
+        <span>Garden</span>
+       </h3>
+       <div class="footer-icons">
+         <a href="#" target="blank"><i class="fa fa-facebook-square"></i></a>
+         <a href="#" target="blank"><i class="fa fa-twitter"></i></a>
+         <a href="#" target="blank"><i class="fa fa-instagram"></i></a>
+       </div>
+       <br>
+      <p class="footer-company-name">Olive Garden © 2016</p>
+    </div>
+    <div class="footer-center col-md-4">
+      <div>
+        <span class="glyphicon glyphicon-map-marker footer-icons"></span>
+        <p>
+          <span>1544 Portage Avenue</span>
+           Winnipeg, MB R3G0W9
+        </p>
+      </div>
+      <div>
+        <span class="glyphicon glyphicon-earphone footer-icons"></span>
+        <p> (204) 774-9725 </p>
+      </div>
+      <div>
+        <span class="glyphicon glyphicon-envelope footer-icons"></span>
+        <p> winnipeg@olivegarden.com </p>
+      </div>
+    </div>
+
+    <div class="footer-right col-md-4">
+      <p class="footer-company-about">
+        <span>About Olive Garden:</span>
+        Olive Garden has delicious Italian food perfect for the whole family. Whether you're looking for freshly baked breadsticks or perfectly made pasta, Olive Garden has something for any appetite
+      </p>
+    </div>
+  </footer>
+
+<!-- Javascript Libs -->
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/switch.js"></script>
+<script type="text/javascript" src="../js/menu.js"></script>
+</body>
+</html>
