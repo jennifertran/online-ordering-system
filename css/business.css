@@ -21,17 +21,17 @@ Pricing table
 }
 
 .pricing-active {
-  border: 3px solid #ff0000;
+  border: 3px solid #D30E00;
   margin-top: -10px;
   box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
 }
 
 .pricing:hover {
-  border: 3px solid #ff0000;
+  border: 3px solid #D30E00;
 }
 
 .pricing:hover h4 {
-  color: #ff0000;
+  color: #D30E00;
 }
 
 .pricing-head {
@@ -57,8 +57,8 @@ Pricing table
   color: #fafafa;
   padding: 12px 0;
   font-size: 27px;
-  background: #ff0000;
-  border-bottom: solid 1px #41b91c;
+  background: #D30E00;
+  border-bottom: solid 1px #CE0D00;
 }
 
 .pricing-head h4 {
@@ -71,7 +71,7 @@ Pricing table
 }
 
 .pricing-head-active h4 {
-  color: #ff0000;
+  color: #D30E00;
 }
 
 .pricing-head h4 i {
@@ -112,7 +112,7 @@ Pricing table
 }
 
 .price-active h4 {
-  color: #ff0000;
+  color: #D30E00;
 }
 
 .no-space-pricing .pricing:hover {
@@ -121,7 +121,7 @@ Pricing table
 
 .no-space-pricing .price-active .pricing-head h4,
 .no-space-pricing .pricing:hover .pricing-head h4 {
-  color: #ff0000;
+  color: #D30E00;
   padding: 15px 0;
   font-size: 80px;
   transition: color 0.5s ease-in-out;
@@ -129,12 +129,12 @@ Pricing table
 
 .yellow-crusta.btn {
   color: #FFFFFF;
-  background-color: #ff0000;
+  background-color: #D30E00;
 }
 .yellow-crusta.btn:hover,
 .yellow-crusta.btn:focus,
 .yellow-crusta.btn:active,
 .yellow-crusta.btn.active {
     color: #FFFFFF;
-    background-color: #cfa500;
+    background-color: #CE0D00;
 }

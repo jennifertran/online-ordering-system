@@ -55,7 +55,7 @@ function changeQuantity(amount,num)
 
 function updateTotal(amount,price)
 {
-  if(amount == -1 && total-price >= 0)
+  if(amount == -1 && (total-price >= 0))
   {
     total-=price;
   }

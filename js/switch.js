@@ -32,7 +32,7 @@ jQuery(document).ready(function(){
     if(scrollPos >= checkoutOffset-55){
       jQuery(".right-checkout").css({
         position: 'fixed',
-        top: '55px',
+        top: '60px',
         left: '890px'
       });
     }
