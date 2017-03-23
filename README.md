@@ -1,9 +1,9 @@
 # Online Ordering System
-A web application that is an online ordering network
+A web application that allows users to order their favourite meal from multiple resturants
 
 To view the project, click <a href="https://jennifertran.github.io/online-ordering-system/" target="_blank">here</a>  
 
-Created by Jennifer Tran, Hui Jin, Zhikan Xu, and Gary Tong
+Created by Jennifer Tran, Hui Jin, Zhikan Xu, and Gary Tong for COMP 3020
 
 # Features:
 ### 1) Selecting a restaurant:
